@@ -5,50 +5,405 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Steven's Resume</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <h1>Steven Vuong - Data Scientist</h1>
-    <h2>Summary</h2>
-    <p>
-      My work is understanding customer behaviour and deploying ML models for
-      millions of users in the HK market. <br />
-      I have won hackathons for innovative solutions with prize money of up to
-      USD $100,000. <br />
-      Previous work unlocked two InnovateUK grants and I have a patent filed
-      with the USPO. <br />
-      Aside from tech, I moved to HK in 2021 and am learning Cantonese and
-      Karate.
-    </p>
-    <hr />
-    <h2><a href="./public/experience.html">Experience</a></h2>
-    <h2><a href="./public/education.html">Education</a></h2>
-    <hr />
-    <h3>Awards</h3>
-    <ul>
-      <li>
-        <p>
-          <b>TigerGraph Hackathon22:</b> First place in the ‘Most Applicable’
-          category for BioDex solution, winning $100k.
-        </p>
-      </li>
-      <li>
-        <p>
-          <b>HSBC 2021 Data Quest:</b> Identifying ‘High Potential Startups’ to
-          benefit multiple business lines.
-        </p>
-      </li>
-    </ul>
-    <h3>Hobbies</h3>
-    <ul>
-      <li>Badminton and Hiking</li>
-      <li>Food and Travel</li>
-      <li>Books and Statistics</li>
-    </ul>
-    <hr />
-    <a href="./public/contact.html">Contact</a>
-    <a href="./public/skills.html">Skills</a>
-    <footer>
-      <p>© 2023 Gandalf</p>
-    </footer>
+    <!-- Navbar -->
+    <section id="Navbar">
+      <div class="container">
+        <header
+          class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom"
+        >
+          <a
+            class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
+          >
+            <span class="fs-4">Steven Vuong - Data Scientist</span>
+          </a>
+
+          <ul class="nav nav-pills">
+            <li class="nav-item">
+              <a href="#" class="nav-link active" aria-current="page"
+                >Summary</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#bottom" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </header>
+      </div>
+    </section>
+    <!-- Summary -->
+    <section id="Summary">
+      <div class="px-4 py-1 my-2 text-center">
+        <img
+          class="d-block mx-auto mb-4 profile-img"
+          src="./assets/images/self_headshot.jpg"
+          alt="Self Headshot"
+        />
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4">
+            My work is understanding customer behaviour and deploying ML models
+            for millions of customers in Hong Kong. I have won hackathons for
+            innovative solutions with prize money of up to $100,000 USD and
+            previously unlocked two InnovateUK grants as well as a having a
+            patent filed with the USPO.<br />
+            Aside from tech, I moved to Hong Kong in 2021 and am learning
+            Cantonese. You'll find me hiking on weekends.
+          </p>
+        </div>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+          <a href="./public/background.html">
+            <button type="button" class="btn btn-outline-secondary btn-lg px-4">
+              Background
+            </button>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- Awards -->
+    <section id="Awards">
+      <div class="px-4 py-3 my-2 text-center container">
+        <h2 class="display-5 mb-3 text-body-emphasis">Awards</h2>
+        <div class="container">
+          <div class="row row-cols-1 row-cols-sm-12 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card shadow-sm">
+                <img
+                  class="bd-placeholder-img card-img-top"
+                  width="100%"
+                  height="225"
+                  xmlns="http://www.w3.org/2000/svg"
+                  role="img"
+                  aria-label="Cardify"
+                  preserveAspectRatio="xMidYMid slice"
+                  src="./assets/images/cardify.png"
+                  alt="Credit Card with Sky Background"
+                  focusable="false"
+                />
+                <rect width="100%" height="100%" fill="#55595c"></rect>
+                <text x="50%" y="50%" fill="#eceeef" dy=".3em">
+                  <h3 class="awards-title">
+                    HSBC Asia Cards Ideathon - Finalists: Cardify
+                  </h3>
+                </text>
+                <div class="card-body">
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <p class="card-text">
+                      Combining sticky rewards and integrated offers driven by
+                      data into one user journey.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <a href="https://www.youtube.com/watch?v=GsVKLoyH2Do">
+                  <img
+                    class="bd-placeholder-img card-img-top"
+                    width="100%"
+                    height="225"
+                    xmlns="http://www.w3.org/2000/svg"
+                    role="img"
+                    aria-label="Cardify"
+                    preserveAspectRatio="xMidYMid slice"
+                    src="./assets/images/dataquest-winners.jpg"
+                    alt="Receiving Awards from Co-CEO's"
+                    focusable="false"
+                  />
+                </a>
+
+                <rect width="100%" height="100%" fill="#55595c"></rect>
+                <text x="50%" y="50%" fill="#eceeef" dy=".3em">
+                  <h3 class="awards-title">
+                    HSBC Data Quest - First Runner Up: Honeycomb
+                  </h3>
+                </text>
+                <div class="card-body">
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <p class="card-text">
+                      Using external data to identify high potential start-ups
+                      and provide them banking services.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <a href="https://www.youtube.com/watch?v=3RESgsM6peU">
+                  <img
+                    class="bd-placeholder-img card-img-top"
+                    width="100%"
+                    height="225"
+                    xmlns="http://www.w3.org/2000/svg"
+                    role="img"
+                    aria-label="Cardify"
+                    preserveAspectRatio="xMidYMid slice"
+                    src="./assets/images/tigergraph-winners.jpg"
+                    focusable="false"
+                  />
+                </a>
+                <rect width="100%" height="100%" fill="#55595c"></rect>
+                <text x="50%" y="50%" fill="#eceeef" dy=".3em">
+                  <h3 class="awards-title">
+                    Tigergraph Hackathon - Most Applicable: BioDex
+                  </h3>
+                </text>
+                <div class="card-body">
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <p class="card-text">
+                      Machine Learning and gamification to preserve Earth's
+                      biodiversity.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Hobbies -->
+    <section id="Hobbies">
+      <div class="px-4 py-3 my-2 text-center container">
+        <h2 class="display-5 mb-3 text-body-emphasis">Hobbies</h2>
+        <div class="container carousel-part">
+          <div
+            id="carouselExampleIndicators"
+            class="carousel slide carousel-img"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <div class="carousel-inner carousel-size">
+              <div class="carousel-item active">
+                <img
+                  src="./assets/images/hiking.jpg"
+                  class="d-block w-100 carousel-img"
+                  alt="hiking photo"
+                />
+              </div>
+              <div class="carousel-item carousel-size">
+                <img
+                  src="./assets/images/books.jpg"
+                  class="d-block w-100 carousel-img"
+                  alt="book and coffee"
+                />
+              </div>
+              <div class="carousel-item carousel-size">
+                <img
+                  src="./assets/videos/badminton_play.gif"
+                  class="d-block w-100 gif"
+                  alt="badminton video"
+                />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Skills -->
+    <section id="Skills">
+      <div class="container px-4 pt-5 text-center container" id="featured-3">
+        <h2 class="display-5 mb-3 text-body-emphasis">Skills</h2>
+        <div class="row g-4 row-cols-1 row-cols-lg-3">
+          <div class="feature col">
+            <div
+              class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"
+            >
+              <img src="./assets/svg/briefcase.svg" alt="briefcase" />
+            </div>
+            <h3 class="fs-2">Business</h3>
+            <ul style="list-style-type: none">
+              <li>
+                <b>Problem-solving</b>: Ability to identify problems, analyse
+                data and develop effective solutions.
+              </li>
+              <br />
+              <li>
+                <b>Adaptability</b>: Ability to adapt to changing business
+                environments, learn new skills and remain flexible.
+              </li>
+              <br />
+              <li>
+                <b>Communication</b>: Ability to communicate effectively across
+                multiple stakeholder levels.
+              </li>
+            </ul>
+          </div>
+          <div class="feature col">
+            <div
+              class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"
+            >
+              <img src="./assets/svg/brackets.svg" alt="curly brackets" />
+            </div>
+            <h3 class="fs-2">Programming</h3>
+            <ul style="list-style-type: none">
+              <li><b>Backend</b>: Python (Expert), Java (Beginner)</li>
+              <br />
+              <br />
+              <li>
+                <b>Web Development</b>: HTML (Intermediate), CSS (Intermediate),
+                Javascript (Beginner).
+              </li>
+              <br />
+              <li>
+                <b>Databases</b>: SQL, NoSQL (Expert), Neo4J, TigerGraph
+                (Intermediate).
+              </li>
+            </ul>
+          </div>
+          <div class="feature col">
+            <div
+              class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"
+            >
+              <img src="./assets/svg/dice.svg" alt="dice showing 6" />
+            </div>
+            <h3 class="fs-2">Statistics</h3>
+            <ul style="list-style-type: none">
+              <li>
+                <b>Probability Theory</b>: Probability distributions, Bayes
+                Theoreom, Conditional probability.
+              </li>
+              <br />
+              <li>
+                <b>Machine Learning</b>: Supervised, Unsupervised, Recommender
+                Systems, Deep Learning.
+              </li>
+              <br />
+              <li>
+                <b>Experiment Design</b>: A/B Testing, Hypothesis creation,
+                Randomisation and Replication.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <section id="Footer">
+      <div class="container" id="bottom">
+        <a href="bottom"></a>
+        <footer
+          class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+        >
+          <ul class="nav col-md-4 justify-content-start list-unstyled d-flex">
+            <li class="ms-3">
+              <a
+                class="text-body-secondary"
+                href="mailto: steven.vuong0101@gmail.com"
+                ><img
+                  src="./assets/svg/icons8-mail.svg"
+                  alt="mail icon"
+                  class="footer-icon"
+              /></a>
+            </li>
+            <li class="ms-3">
+              <a class="text-body-secondary" href="tel:+852 9063 7889"
+                ><img
+                  src="./assets/svg/icons8-phone.svg"
+                  alt="phone logo"
+                  class="footer-icon"
+              /></a>
+            </li>
+          </ul>
+          Get in touch to speak more!
+          <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3">
+              <a
+                class="text-body-secondary"
+                href="https://github.com/StevenVuong"
+                ><img
+                  src="./assets/svg/iconmonstr-github-1.svg"
+                  alt="github logo"
+                  class="footer-icon"
+              /></a>
+            </li>
+            <li class="ms-3">
+              <a
+                class="text-body-secondary"
+                href="https://www.linkedin.com/in/steven-vuong/"
+                ><img
+                  src="./assets/svg/icons8-linkedin.svg"
+                  alt="linkedin logo"
+                  class="footer-icon"
+              /></a>
+            </li>
+            <li class="ms-3">
+              <a
+                class="text-body-secondary"
+                href="https://medium.com/@stevenvuong96"
+                ><img
+                  src="./assets/svg/medium-icon-svgrepo-com.svg"
+                  alt="medium logo"
+                  class="footer-icon"
+              /></a>
+            </li>
+          </ul>
+        </footer>
+      </div>
+    </section>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

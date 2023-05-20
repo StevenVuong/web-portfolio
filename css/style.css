@@ -1,0 +1,48 @@
+.profile-img {
+    height: 200px;
+    border-radius: 50%;
+  }
+
+.awards-title {
+  font-size: 1.7rem;
+  font-weight: 310;
+}
+
+p {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.gif {
+  max-height: 600px;
+  margin: 0 auto; /* Center the carousel */
+  max-width: 300px;
+}
+
+.carousel-img {  
+  max-height: 40rem;
+  max-width: 50rem;
+  margin: 0 auto; /* Center the carousel */
+  object-fit: cover;
+}
+
+.carousel-size {
+  max-height: 30rem;
+  min-height: 20rem;
+}
+
+.feature-icon {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 0.75rem;
+}
+
+.feature-icon img {
+  height: 1.5rem;
+}
+
+.footer-icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 0.75rem;
+}
