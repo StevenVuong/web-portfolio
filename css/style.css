@@ -1,48 +1,144 @@
-.profile-img {
-    height: 200px;
-    border-radius: 50%;
-  }
 
-.awards-title {
-  font-size: 1.7rem;
-  font-weight: 310;
+
+.playwrite-au-qld-header {
+  font-family: "Playwrite AU QLD", cursive;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
 }
 
-p {
-  font-size: 1.2rem;
+.montserrat-introduction {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.merriweather-light {
+  font-family: "Merriweather", serif;
   font-weight: 300;
+  font-style: normal;
 }
 
-.gif {
-  max-height: 600px;
-  margin: 0 auto; /* Center the carousel */
-  max-width: 300px;
+.font-size-about {
+    font-size: 18px;
 }
 
-.carousel-img {  
-  max-height: 40rem;
-  max-width: 50rem;
-  margin: 0 auto; /* Center the carousel */
-  object-fit: cover;
+.font-size-skills {
+    font-size: 15px;
 }
 
-.carousel-size {
-  max-height: 30rem;
-  min-height: 20rem;
+h3 {
+    font-size: 18px;
+        color: #3FA2F6
 }
 
-.feature-icon {
-  width: 4rem;
-  height: 4rem;
-  border-radius: 0.75rem;
+
+.gradient-background {
+  background: linear-gradient(300deg, #FAFFAF, #96C9F4, #3FA2F6);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
 }
 
-.feature-icon img {
-  height: 1.5rem;
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
-.footer-icon {
-  width: 30px;
-  height: 30px;
-  border-radius: 0.75rem;
+hr {
+    border: dotted #96C9F4 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+.intro-class {
+    height: 50vh;
+}
+
+.professional-photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%
+}
+
+h2 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+    color: #3FA2F6
+}
+
+.carousel-parent {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 50%;
+    margin: 0 auto 0 auto; /* top bottom left right */
+    text-align: left;
+    row-gap: 2rem;
+}
+
+.carousel {
+    height: 70vh;
+}
+
+.skills-img {
+    width: 200px;
+    height: 140px;
+}
+
+.carousel .carousel-indicators button {
+    background-color: #96C9F4;
+}
+
+.carousel .carousel-indicators button.active {
+    background-color: #3FA2F6;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: #3FA2F6;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: #3FA2F6;
+}
+
+.problems-gif {
+    width: 400px;
+    height: 400px;
+}
+
+.btn {
+    background-color: #3FA2F6;
+    border-color: #3FA2F6;
+}
+.btn-primary:focus, .btn-primary.focus {
+    background-color: #96C9F4;
+    border-color: #96C9F4;
+}
+.btn-primary:hover, .btn-primary.hover {
+    background-color: #96C9F4;
+    border-color: #96C9F4;
+}
+
+.font-size-footer {
+    font-size: 12px;
 }

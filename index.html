@@ -1,409 +1,179 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Steven's Resume</title>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steven Vuong</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+AU+QLD:wght@100..400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="./css/style.css" />
-  </head>
-  <body>
-    <!-- Navbar -->
-    <section id="Navbar">
-      <div class="container">
-        <header
-          class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom"
-        >
-          <a
-            class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
-          >
-            <span class="fs-4">Steven Vuong - Data Scientist</span>
-          </a>
+        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
 
-          <ul class="nav nav-pills">
-            <li class="nav-item">
-              <a href="#" class="nav-link active" aria-current="page"
-                >Summary</a
-              >
-            </li>
-            <li class="nav-item">
-              <a href="#bottom" class="nav-link">Contact</a>
-            </li>
-          </ul>
-        </header>
-      </div>
-    </section>
-    <!-- Summary -->
-    <section id="Summary">
-      <div class="px-4 py-1 my-2 text-center">
-        <img
-          class="d-block mx-auto mb-4 profile-img"
-          src="./assets/images/self_headshot.jpg"
-          alt="Self Headshot"
-        />
-        <div class="col-lg-6 mx-auto">
-          <p class="lead mb-4">
-            My work is understanding customer behaviour and deploying ML models
-            for millions of customers in Hong Kong. I have won hackathons for
-            innovative solutions with prize money of up to $100,000 USD and
-            previously unlocked two InnovateUK grants as well as a having a
-            patent filed with the USPO.<br />
-            Aside from tech, I moved to Hong Kong in 2021 and am learning
-            Cantonese. You'll find me hiking on weekends.
-          </p>
+</head>
+
+<body>
+
+    <section id="title" class="gradient-background">
+        <div class="px-4 py-5 text-center intro-class">
+            <h1 class="display-5 fw-bold text-body-emphasis playwrite-au-qld-header pt-5 mt-5 mb-5">
+                Hi!, I'm Steven
+            </h1>
+            <div class="col-lg-6 mx-auto">
+
+                <h2 class="mb-4 montserrat-introduction">a data scientist.</h2>
+
+            </div>
         </div>
-        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-          <a href="./public/background.html">
-            <button type="button" class="btn btn-outline-secondary btn-lg px-4">
-              Background
-            </button>
-          </a>
-        </div>
-      </div>
     </section>
-    <!-- Awards -->
-    <section id="Awards">
-      <div class="px-4 py-3 my-2 text-center container">
-        <h2 class="display-5 mb-3 text-body-emphasis">Awards</h2>
+
+    <section id="introduction">
+        <div class="px-4 py-5 my-5 text-center">
+            <img class="d-block mx-auto mb-4 professional-photo" src="./assets/images/Professional Photo Square.png"
+                alt="professional headshot">
+            <h2 class="montserrat-introduction">About</h2>
+            <div class="col-lg-6 mx-auto">
+                <p class="lead mb-4 merriweather-light font-size-about">My work is to drive <b>hyper-personalisation</b>
+                    and
+                    <b>innovation</b> using <b>data analysis</b>, <b>machine learning</b> and <b>generative
+                        ai</b>.<br />
+                    I ❤️ badminton🏸, food🍖, travel✈️ and reading📚. Am currently learning Cantonese and Web
+                    Development.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <hr />
+
+    <section id="Skills & Experiences">
+
         <div class="container">
-          <div class="row row-cols-1 row-cols-sm-12 row-cols-md-3 g-4">
-            <div class="col">
-              <div class="card shadow-sm">
-                <img
-                  class="bd-placeholder-img card-img-top"
-                  width="100%"
-                  height="225"
-                  xmlns="http://www.w3.org/2000/svg"
-                  role="img"
-                  aria-label="Cardify"
-                  preserveAspectRatio="xMidYMid slice"
-                  src="./assets/images/cardify.png"
-                  alt="Credit Card with Sky Background"
-                  focusable="false"
-                />
-                <rect width="100%" height="100%" fill="#55595c"></rect>
-                <text x="50%" y="50%" fill="#eceeef" dy=".3em">
-                  <h3 class="awards-title">
-                    HSBC Asia Cards Ideathon - Finalists: Cardify
-                  </h3>
-                </text>
-                <div class="card-body">
-                  <div
-                    class="d-flex justify-content-between align-items-center"
-                  >
-                    <p class="card-text">
-                      Combining sticky rewards and integrated offers driven by
-                      data into one user journey.
-                    </p>
-                  </div>
+            <div id="myCarousel" class="carousel slide" data-interval="false">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" aria-label="Skills"
+                        class="active" aria-current="true"></button>
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Experience"
+                        class=""></button>
                 </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card shadow-sm">
-                <a href="https://www.youtube.com/watch?v=GsVKLoyH2Do">
-                  <img
-                    class="bd-placeholder-img card-img-top"
-                    width="100%"
-                    height="225"
-                    xmlns="http://www.w3.org/2000/svg"
-                    role="img"
-                    aria-label="Cardify"
-                    preserveAspectRatio="xMidYMid slice"
-                    src="./assets/images/dataquest-winners.jpg"
-                    alt="Receiving Awards from Co-CEO's"
-                    focusable="false"
-                  />
-                </a>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="px-4 pb-5 text-center">
+                            <h2 class="montserrat-introduction">My Skills</h2>
+                        </div>
+                        <div class="carousel-parent">
+                            <div><img src="./assets/gifs/matrix_gif_numbers.webp" alt="matrix numbers screen"
+                                    class="skills-img" /></div>
+                            <div>
+                                <h3 class="montserrat-introduction">Data Analysis & Machine Learning</h3>
+                                <p class="merriweather-light font-size-skills">I started learning Python/SQL since
+                                    university and fell into the world of big data. Over time, I have analysed and
+                                    modeled all kinds of data for various purposes.</p>
+                            </div>
+                            <div><img src="./assets/gifs/matrix_pill.webp" alt="matrix pill choice"
+                                    class="skills-img" /></div>
+                            <div>
+                                <h3 class="montserrat-introduction">Product & Commercialisation</h3>
+                                <p class="merriweather-light font-size-skills">Typically, my work contributes to a
+                                    software product that needs to add value to a client. I've gradually improved
+                                    to ensure any effort is contributing to a better bottom line</p>
+                            </div>
+                            <div><img src="./assets/gifs/matrix-neo-fight.gif" alt="matrix pill choice"
+                                    class="skills-img" />
+                            </div>
+                            <div>
+                                <h3 class="montserrat-introduction">Problem Solving</h3>
+                                <p class="merriweather-light font-size-skills">My goal is to one day handle problems
+                                    like how Neo learns how to handle Agent Smith.</p>
+                            </div>
+                        </div>
 
-                <rect width="100%" height="100%" fill="#55595c"></rect>
-                <text x="50%" y="50%" fill="#eceeef" dy=".3em">
-                  <h3 class="awards-title">
-                    HSBC Data Quest - First Runner Up: Honeycomb
-                  </h3>
-                </text>
-                <div class="card-body">
-                  <div
-                    class="d-flex justify-content-between align-items-center"
-                  >
-                    <p class="card-text">
-                      Using external data to identify high potential start-ups
-                      and provide them banking services.
-                    </p>
-                  </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="px-4 pb-5 text-center">
+                            <h2 class="montserrat-introduction">My Experiences</h2>
+                            <p><a href="./public/cv.html">CV</a></p>
+                        </div>
+                        <div class="carousel-parent">
+                            <div><img src="./assets/gifs/blastoise.gif" alt="blastoise pokemon" class="skills-img" />
+                            </div>
+                            <div>
+                                <h3 class="montserrat-introduction">Data Scientist @ HSBC</h3>
+                                <p class="merriweather-light font-size-skills">Driving hyper-personalisation across HSBC
+                                    HK, identifying business opportunities with data analysis and GenAI innovation.</p>
+                            </div>
+                            <div><img src="./assets/gifs/wartortle.gif" alt="wartortle pokemon" class="skills-img" />
+                            </div>
+                            <div>
+                                <h3 class="montserrat-introduction">Studio Data Scientist @ Founders Factory</h3>
+                                <p class="merriweather-light font-size-skills">Build prototypes and rapidly iterate with
+                                    entrepreneurs to identify product-market fit for early-stage startups.
+                                </p>
+                            </div>
+                            <div><img src="./assets/gifs/squirtle.gif" alt="squirtle pokemon" class="skills-img" />
+                            </div>
+                            <div>
+                                <h3 class="montserrat-introduction">Junior Data Scientist @ CrossTech</h3>
+                                <p class="merriweather-light font-size-skills">Delivered flagship AI/ML product for UK
+                                    Rail project under InnovateUK within 9 months after joining.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
-            <div class="col">
-              <div class="card shadow-sm">
-                <a href="https://www.youtube.com/watch?v=3RESgsM6peU">
-                  <img
-                    class="bd-placeholder-img card-img-top"
-                    width="100%"
-                    height="225"
-                    xmlns="http://www.w3.org/2000/svg"
-                    role="img"
-                    aria-label="Cardify"
-                    preserveAspectRatio="xMidYMid slice"
-                    src="./assets/images/tigergraph-winners.jpg"
-                    focusable="false"
-                  />
-                </a>
-                <rect width="100%" height="100%" fill="#55595c"></rect>
-                <text x="50%" y="50%" fill="#eceeef" dy=".3em">
-                  <h3 class="awards-title">
-                    Tigergraph Hackathon - Most Applicable: BioDex
-                  </h3>
-                </text>
-                <div class="card-body">
-                  <div
-                    class="d-flex justify-content-between align-items-center"
-                  >
-                    <p class="card-text">
-                      Machine Learning and gamification to preserve Earth's
-                      biodiversity.
-                    </p>
-                  </div>
-                </div>
-              </div>
+    </section>
+
+    <hr />
+    <section id="Get in Touch!">
+        <div class="px-4 pb-5 my-5 text-center">
+
+            <h2 class="montserrat-introduction">Get in Touch!</h2>
+            <h3 class="montserrat-introduction">If you enjoy problem solving too.</h3>
+            <div>
+                <img src="./assets/gifs/work-gif.webp" alt="nap problem solving gif" class="problems-gif" />
             </div>
-          </div>
+            <a href="mailto:steven.vuong0101@gmail.com">
+                <button type="button" class="btn btn-primary mt-3">Contact Me</button>
+            </a>
+
         </div>
-      </div>
     </section>
-    <!-- Hobbies -->
-    <section id="Hobbies">
-      <div class="px-4 py-3 my-2 text-center container">
-        <h2 class="display-5 mb-3 text-body-emphasis">Hobbies</h2>
-        <div class="container carousel-part">
-          <div
-            id="carouselExampleIndicators"
-            class="carousel slide carousel-img"
-          >
-            <div class="carousel-indicators">
-              <button
-                type="button"
-                data-bs-target="#carouselExampleIndicators"
-                data-bs-slide-to="0"
-                class="active"
-                aria-current="true"
-                aria-label="Slide 1"
-              ></button>
-              <button
-                type="button"
-                data-bs-target="#carouselExampleIndicators"
-                data-bs-slide-to="1"
-                aria-label="Slide 2"
-              ></button>
-              <button
-                type="button"
-                data-bs-target="#carouselExampleIndicators"
-                data-bs-slide-to="2"
-                aria-label="Slide 3"
-              ></button>
-            </div>
-            <div class="carousel-inner carousel-size">
-              <div class="carousel-item active">
-                <img
-                  src="./assets/images/hiking.jpg"
-                  class="d-block w-100 carousel-img"
-                  alt="hiking photo"
-                />
-              </div>
-              <div class="carousel-item carousel-size">
-                <img
-                  src="./assets/images/books.jpg"
-                  class="d-block w-100 carousel-img"
-                  alt="book and coffee"
-                />
-              </div>
-              <div class="carousel-item carousel-size">
-                <img
-                  src="./assets/videos/badminton_play.gif"
-                  class="d-block w-100 gif"
-                  alt="badminton video"
-                />
-              </div>
-            </div>
-            <button
-              class="carousel-control-prev"
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide="prev"
-            >
-              <span
-                class="carousel-control-prev-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button
-              class="carousel-control-next"
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide="next"
-            >
-              <span
-                class="carousel-control-next-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
+
+    <section id="Footer" class="gradient-background">
+        <div class="container">
+            <footer class="py-3 mt-4">
+                <ul class="nav justify-content-center pb-3 mb-3 montserrat-introduction">
+                    <li class="nav-item "><a href="https://www.linkedin.com/in/steven-vuong/"
+                            class="nav-link px-2 text-body-secondary">LinkedIn</a></li>
+                    <li class="nav-item"><a href="https://github.com/StevenVuong/"
+                            class="nav-link px-2 text-body-secondary">Github</a></li>
+                    <li class="nav-item"><a href="https://medium.com/@stevenvuong96"
+                            class="nav-link px-2 text-body-secondary">Medium</a></li>
+                </ul>
+                <p class="text-center text-body-secondary merriweather-light font-size-footer">© Steven Vuong</p>
+            </footer>
         </div>
-      </div>
     </section>
-    <!-- Skills -->
-    <section id="Skills">
-      <div class="container px-4 pt-5 text-center container" id="featured-3">
-        <h2 class="display-5 mb-3 text-body-emphasis">Skills</h2>
-        <div class="row g-4 row-cols-1 row-cols-lg-3">
-          <div class="feature col">
-            <div
-              class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"
-            >
-              <img src="./assets/svg/briefcase.svg" alt="briefcase" />
-            </div>
-            <h3 class="fs-2">Business</h3>
-            <ul style="list-style-type: none">
-              <li>
-                <b>Problem-solving</b>: Ability to identify problems, analyse
-                data and develop effective solutions.
-              </li>
-              <br />
-              <li>
-                <b>Adaptability</b>: Ability to adapt to changing business
-                environments, learn new skills and remain flexible.
-              </li>
-              <br />
-              <li>
-                <b>Communication</b>: Ability to communicate effectively across
-                multiple stakeholder levels.
-              </li>
-            </ul>
-          </div>
-          <div class="feature col">
-            <div
-              class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"
-            >
-              <img src="./assets/svg/brackets.svg" alt="curly brackets" />
-            </div>
-            <h3 class="fs-2">Programming</h3>
-            <ul style="list-style-type: none">
-              <li><b>Backend</b>: Python (Expert), Java (Beginner)</li>
-              <br />
-              <br />
-              <li>
-                <b>Web Development</b>: HTML (Intermediate), CSS (Intermediate),
-                Javascript (Beginner).
-              </li>
-              <br />
-              <li>
-                <b>Databases</b>: SQL, NoSQL (Expert), Neo4J, TigerGraph
-                (Intermediate).
-              </li>
-            </ul>
-          </div>
-          <div class="feature col">
-            <div
-              class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"
-            >
-              <img src="./assets/svg/dice.svg" alt="dice showing 6" />
-            </div>
-            <h3 class="fs-2">Statistics</h3>
-            <ul style="list-style-type: none">
-              <li>
-                <b>Probability Theory</b>: Probability distributions, Bayes
-                Theoreom, Conditional probability.
-              </li>
-              <br />
-              <li>
-                <b>Machine Learning</b>: Supervised, Unsupervised, Recommender
-                Systems, Deep Learning.
-              </li>
-              <br />
-              <li>
-                <b>Experiment Design</b>: A/B Testing, Hypothesis creation,
-                Randomisation and Replication.
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Footer -->
-    <section id="Footer">
-      <div class="container" id="bottom">
-        <a href="bottom"></a>
-        <footer
-          class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
-        >
-          <ul class="nav col-md-4 justify-content-start list-unstyled d-flex">
-            <li class="ms-3">
-              <a
-                class="text-body-secondary"
-                href="mailto: steven.vuong0101@gmail.com"
-                ><img
-                  src="./assets/svg/icons8-mail.svg"
-                  alt="mail icon"
-                  class="footer-icon"
-              /></a>
-            </li>
-            <li class="ms-3">
-              <a class="text-body-secondary" href="tel:+852 9063 7889"
-                ><img
-                  src="./assets/svg/icons8-phone.svg"
-                  alt="phone logo"
-                  class="footer-icon"
-              /></a>
-            </li>
-          </ul>
-          Get in touch to speak more!
-          <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-            <li class="ms-3">
-              <a
-                class="text-body-secondary"
-                href="https://github.com/StevenVuong"
-                ><img
-                  src="./assets/svg/iconmonstr-github-1.svg"
-                  alt="github logo"
-                  class="footer-icon"
-              /></a>
-            </li>
-            <li class="ms-3">
-              <a
-                class="text-body-secondary"
-                href="https://www.linkedin.com/in/steven-vuong/"
-                ><img
-                  src="./assets/svg/icons8-linkedin.svg"
-                  alt="linkedin logo"
-                  class="footer-icon"
-              /></a>
-            </li>
-            <li class="ms-3">
-              <a
-                class="text-body-secondary"
-                href="https://medium.com/@stevenvuong96"
-                ><img
-                  src="./assets/svg/medium-icon-svgrepo-com.svg"
-                  alt="medium logo"
-                  class="footer-icon"
-              /></a>
-            </li>
-          </ul>
-        </footer>
-      </div>
-    </section>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>

@@ -1,4 +1,8 @@
-# Resume Site
+# Deliverables
+
+- One HTML file for the structure of the website
+- One CSS file for the styling of the website
+- Any additional assets (e.g. images) used in the website
 
 ## Features
 
@@ -14,3 +18,10 @@
 - All CSS should be valid and follow best practices for naming conventions and organization.
 - The website should be responsive and work on different screen sizes and devices.
 - All images used in the website should have appropriate alt text to be accessible.
+
+## Timeline
+
+- Hour 1: Gather content and design ideas, create wireframes and mockups.
+- Hour 2-3: Develop HTML structure and CSS styling, test on different devices and browsers.
+- Hour 4: Finalize design and content, make any necessary revisions, optimize for performance.
+- Hour 5: Launch the website and share with others in the Q&A for feedback, make any final adjustments.
